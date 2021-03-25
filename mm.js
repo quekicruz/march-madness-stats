@@ -5,63 +5,63 @@ if (userName == 'Duke'){
     document.write('<h3>' + 'Welcome Blue Devil' + '</h3>');
 } else 
 {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Gonzga'){
     document.write('<h3>' + 'Welcome Bulldog' + '</h3>');
 }else 
 {
-        document.write('<h4>' + 'Welcome' + '</h4>');
+        document.write;
     }
 
 if (userName == 'Creighton'){
-    document.write('<h3>' + 'Welcome BlueJay ' + '</h3>');
+    document.write('<h3>' + 'Welcome BlueJay' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'USC'){
-    document.write('<h3>' + 'Welcome Traveler ' + '</h3>');
+    document.write('<h3>' + 'Welcome Trojan' + '</h3>');
     
 } else {
-        document.write('<h4>' + 'Welcome' + '</h4>');
+        document.write;
     }
 
 if (userName == 'Oregon'){
     document.write('<h3>' + 'Welcome Duck' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Michigan'){
     document.write('<h3>' + 'Welcome Wolverine' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Florida State'){
-    document.write('<h3>' + 'Welcome Renegade' + '</h3>');
+    document.write('<h3>' + 'Welcome Seminole' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'UCLA'){
     document.write('<h3>' + 'Welcome Bruin' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
  
 if (userName == 'Alabama'){
-    document.write('<h3>' + 'Welcome Big Al' + '</h3>');
+    document.write('<h3>' + 'Welcome Tide' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Baylor'){
     document.write('<h3>' + 'Welcome Bear' + '</h3>');
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Villanova'){
@@ -71,7 +71,7 @@ if (userName == 'Villanova'){
 }
 
 if (userName == 'Arkansas'){
-    document.write;
+    document.write('<h3>' + 'Welcome Razorback ' + '</h3>')
 } else {
     document.write;
 }
@@ -83,9 +83,10 @@ if (userName == 'Oral Roberts'){
 }
  
 if (userName == 'Loyola'){
-    document.write('<h3>' + 'Welcome Wolf' + '</h3>');
+    document.write('<h3>' + 'Welcome Rambler' + '</h3>');
+
 } else {
-    document.write('<h4>' + 'Welcome' + '</h4>');
+    document.write;
 }
 
 if (userName == 'Oregon State'){
@@ -95,13 +96,13 @@ if (userName == 'Oregon State'){
 }
 
 if (userName == 'Syracuse'){
-    document.write('<h3>' + 'Welcome Otto' + '</h3>');
+    document.write('<h3>' + 'Welcome Orange' + '</h3>');
 } else {
     document.write;
 }
 
 if (userName == 'Houston'){
-    document.write('<h3>' + 'Welcome Shasta ' + '</h3>');
+    document.write('<h3>' + 'Welcome Cougar ' + '</h3>');
 } else {
     document.write;
 }

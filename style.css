@@ -1,24 +1,25 @@
 header{ 
-    background-color:rgb(45, 6, 153);
+    background-color:rgb(36, 230, 230);
     text-align: center;
 }
 
 body{
-    background-color: rgb(45, 6, 153);
+    background-color: rgb(36, 230, 230);
 }
 
 li{
     border: solid whitesmoke 3px;
+    border-radius: 60%;
     text-size-adjust: 30px;
     display: inline;
     text-align: center;
     background-color: teal;
-    padding: 8px;
+    padding: 12px;
     margin: 5% 10% 0% 10%
 }
 
 nav{
-    background-color: rgb(243, 242, 241);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -28,7 +29,6 @@ h1{
     font-style: unset;
     text-align: center;
 }
-
 #naruto {
     width: 65%;
     text-align: center;
@@ -39,7 +39,7 @@ h1{
 }
 
 p{ 
-    color: bisque;
+    color: rgb(8, 8, 8);
 }
 
 #kira{
