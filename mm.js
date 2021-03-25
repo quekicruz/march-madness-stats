@@ -8,7 +8,7 @@ if (userName == 'Duke'){
     document.write;
 }
 
-if (userName == 'Gonzga'){
+if (userName == 'Gonzaga'){
     document.write('<h3>' + 'Welcome Bulldog' + '</h3>');
 }else 
 {
