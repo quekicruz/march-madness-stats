@@ -87,12 +87,44 @@ function getTeamName(){
     } else {
         document.write;
     } 
+}
+function moveForward(){prompt('Do you want your team to win?')
+if(moveForward.toLowerCase()== 'yes') {
+    moveForward = prompt('Are you sure?')
+} 
+else {
+    document.write('AW');
+}
+}
 
-let moveForward = prompt('Do you want to your team to win?')
-    if(moveForward.toLowerCase() == 'yes'){
-        moveForward = prompt('Are you sure?')
-    if(moveForward.toLowerCase() == 'yes'){
-        moveForward = Image('https://live.staticflickr.com/3831/13372123064_9f7bede2d9_b.jpg')
-    };
+function trophies(){
+    let trophiesAnswer = confirm('Do you want trophies?')
+    let url = 'https://www.seekpng.com/png/detail/139-1391359_trophy-transparent-national-championship-ncaa-championship-trophy-png.png'
+
+    if (trophiesAnswer){
+        let trophiesAnswerNumber = prompt('How many Trophies?');
+        for(let i = 0; i < trophiesAnswerNumber; i++){
+            document.write('<img ' + 'src=' + url + ' id="trophies">')
+        }
     }
 }
+
+function points(){
+    let pointsAnswer = prompt('Do you want to guess the number of points Oregon scored last week?')
+    
+    while (pointsAnswer.toLowerCase() == 'yes');
+        let correctAnswer = 95
+        let userGuess = prompt('Please enter a number 1-150');
+        let numberOfGuesses = 9;}
+
+
+     for(let i = 0; i < numberOfGuesses; i++) {
+            let guessLeft = numberOfGuesses - i;
+            if(userGuess < correctAnswer){
+                userGuess = prompt(guessLeft + ' Guesses left. To Low. Please enter a number 1-150');
+            } else if (userGuess > correctAnswer) {
+                userGuess = prompt(guessLeft + ' Guesses left. To High! Please enter a number 1-150');
+            }
+            if (userGuess == correctAnswer);
+                alert('You got it!');
+                break; }

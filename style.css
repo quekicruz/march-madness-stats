@@ -7,31 +7,56 @@ body{
     background-color: rgb(36, 230, 230);
 }
 
-li{
+/*li{
     border: solid whitesmoke 3px;
-    border-radius: 60%;
-    text-size-adjust: 30px;
+    border-radius: 90%;
+    border-right: 25%;
+    border-left: 25%;
+    text-size-adjust: 50px;
     display: inline;
     text-align: center;
-    background-color: teal;
+    background-color: rgb(36, 230, 230);
     padding: 12px;
-    margin: 5% 10% 0% 10%
+    margin: 55% 10% 20% 15%
+}*/
+
+li{
+    display: inline;
+    font-display: unset;
+    font-size: 20px;
+    border-left: 20px;
+    border-bottom:  20px; 
+    padding: 150px;
+    text-align: center;
+    border-style:double ;
 }
 
-nav{
+nav {
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: solid rgb(0, 0, 0);
+    border-left: 4px;
+    border-right: 4px;
+    border-style:double;
+} 
+nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ /*nav{
     background-color: rgb(0, 0, 0);
-}
-
+} */
 
 h1{
     font: bold;
-    font-size: 75px;
+    font-size: 300%;
     font-style: unset;
     text-align: center;
 }
 #naruto {
-    width: 65%;
+    width: 55%;
     text-align: center;
+    border-top: 20px;
 }
 
 #sasuke {
