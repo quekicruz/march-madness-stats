@@ -1,13 +1,6 @@
 let userName = prompt('Who is your Sweet 16 Team?');
 
 
-if (userName == 'Duke'){
-    document.write('<h3>' + 'Welcome Blue Devil' + '</h3>');
-} else 
-{
-    document.write;
-}
-
 if (userName == 'Gonzaga'){
     document.write('<h3>' + 'Welcome Bulldog' + '</h3>');
 }else 
