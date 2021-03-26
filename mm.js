@@ -121,7 +121,7 @@ function guess(){
                  userGuess = prompt(guessLeft + ' Guesses left. To High! Please enter a number 1-150');
              }
             if (userGuess == correctAnswer){
-                 alert('You got it!');
+                 alert('You Are The Champion!!!');
                  break;}
              }
     }
