@@ -112,19 +112,22 @@ function trophies(){
 function points(){
     let pointsAnswer = prompt('Do you want to guess the number of points Oregon scored last week?')
     
-    while (pointsAnswer.toLowerCase() == 'yes');
+    while (pointsAnswer.toLowerCase() == 'yes'){
         let correctAnswer = 95
         let userGuess = prompt('Please enter a number 1-150');
         let numberOfGuesses = 9;}
 
+    }
 
-     for(let i = 0; i < numberOfGuesses; i++) {
-            let guessLeft = numberOfGuesses - i;
-            if(userGuess < correctAnswer){
-                userGuess = prompt(guessLeft + ' Guesses left. To Low. Please enter a number 1-150');
-            } else if (userGuess > correctAnswer) {
-                userGuess = prompt(guessLeft + ' Guesses left. To High! Please enter a number 1-150');
-            }
-            if (userGuess == correctAnswer);
-                alert('You got it!');
-                break; }
+    for(let i = 0; i < numberOfGuesses; i++) {
+        let guessLeft = numberOfGuesses - i;
+        if(userGuess < correctAnswer){
+            userGuess = prompt(guessLeft + ' Guesses left. To Low. Please enter a number 1-150')
+        } else if (userGuess > correctAnswer) {
+            userGuess = prompt(guessLeft + ' Guesses left. To High! Please enter a number 1-150');
+        }
+        if (userGuess == correctAnswer){
+            alert('You got it!');
+            break;}
+
+        }
